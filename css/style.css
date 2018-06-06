@@ -64,7 +64,7 @@ main {
 }
 
 #landing-img {
-    background-image: url('/img/camera.jpg');
+    background-image: url('../img/camera.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
