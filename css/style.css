@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
+body {
+    font-family: 'Roboto Condensed', sans-serif ;
+    margin: 0;
+    height: auto;
+    background: #eee;
+}
+
+h1 {
+    font-size: 2.6rem;
+    font-weight: 500;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+main {
+    max-width: 900px;
+    margin: auto;
+    box-shadow: 30px 0px 40px rgba(0,0,0,0.2),
+    -30px 0px 40px rgba(0,0,0,0.2);
+}
+
+#landing {
+    background: #fff;
+}
+
+#landing-text {
+    display: flex;
+    flex: 0 1 40vw;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 1rem;
+
+}
+
+#landing-text h2 {
+    color: #777;
+    font-size: 1.2rem;
+    font-weight: 200;
+    margin: 0;
+}
+
+.btn {
+    border: 1px #000 solid;
+    text-decoration: none;
+    padding: 0.4rem 2rem;
+    border-radius: 0.7rem;
+    display: inline-block;
+    margin: 2rem 0 0;
+    color: #333;
+    transition: background 500ms ease;
+}
+
+.btn:hover {
+    background: #e4e4e4;
+}
+
+#landing-img {
+    background-image: url('/img/camera.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50vh;
+    flex: 0 1 60vw;
+    margin: 0;
+}
+
+#header {
+    text-align: center;
+    color: #fff;
+    background: #333;
+    padding: 1.5rem;
+}
+
+#header h2 {
+    border-right: 1px #fff dotted;
+    border-left: 1px #fff dotted;
+    display: inline-block;
+    padding: 0 1rem;
+}
+.caption {
+    text-align: center;
+    padding: 0.7rem;
+}
+
+footer {
+    text-align: center;
+    margin: auto;
+    padding: 2rem 1rem;
+    color: #333;
+}
+
+footer h3 {
+    font-size: 2.6rem;
+    margin-bottom: 0;
+}
+
+@media (min-width: 500px) {
+    #landing {
+        display: flex;
+    }
+
+    #landing-text {
+        height: 100vh;
+    }
+
+    #landing-img {
+        height: 100vh;
+    }
+}
+
+@media (min-width: 700px) {
+    .btn {
+        padding: 1rem 3rem;
+    }
+}
+
